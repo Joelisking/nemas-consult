@@ -1,0 +1,962 @@
+/* =======================================================================
+Template Name: B-Space Single Page Template
+Author:  SmartEye Technologies
+Author URI: www.smart-eye.in
+Version: 1.0
+coder name:Prabin Raja
+Description: This Template is created for web template
+
+======================================================================= */
+/* ===================================== Import Less ================================== */
+@font-face {
+  font-family: robot-slab;
+  src: url('../fonts/RobotoSlab-Regular.ttf');
+  src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+}
+.blog-box1 .cdfik li {
+  float: left;
+  padding: 11.5px;
+  text-align: center;
+  font-size: 13px;
+  border-bottom: 1px solid #ededed;
+  border-right: 1px solid #ededed;
+  border-top: 1px solid #ededed;
+}
+.blog-box1 .sd-op {
+  background-color: #f58220;
+  text-align: center;
+  color: #FFF;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+.blog-box1 .cdfik {
+  width: 100%;
+}
+.blog-box1 .pof-det {
+  padding: 10px;
+  padding-left: 10px;
+  padding-left: 60px;
+}
+.blog-box1 .pof-det b {
+  font-size: 13px;
+}
+.blog-box1 .pof-det p {
+  font-size: 13px;
+  text-align: justify;
+  text-indent: 20px;
+  margin-top: 5px;
+}
+.blog-box1 .sd-op b {
+  font-size: 22px;
+}
+/* ===================================== Basic CSS ================================== */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+a:hover,
+a:focus,
+input,
+textarea {
+  text-decoration: none;
+  outline: none;
+}
+.cp {
+  cursor: pointer;
+}
+p {
+  margin-bottom: 0px;
+  width: 100%;
+}
+.layy {
+  padding: 30px;
+}
+h2 {
+  width: 100%;
+}
+.no-padding {
+  padding: 0px;
+}
+.no-margin {
+  margin: 0px;
+}
+.sec-title {
+  text-align: center;
+}
+.sec-title h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: none;
+  font-family: robot-slab;
+}
+.sec-title p {
+  font-size: 14px;
+}
+body {
+  background: #f4f4f4;
+  font-family: robot-slab;
+  font-size: 0.85rem;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 1250px;
+}
+.social {
+  position: fixed;
+  left: 0px;
+  top: 37%;
+  width: 60px;
+  height: 120px;
+  background-color: #EAEAEA;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+.social ul li {
+  list-style: none;
+  float: none;
+  font-size: 32px;
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  color: #FFF;
+}
+.social ul {
+  padding-left: 0px;
+}
+.container-fluid {
+  padding: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: robot-slab;
+}
+@media screen and (max-width: 750px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+a {
+  color: #888;
+}
+.content-title {
+  font-family: robot-slab;
+  text-align: center;
+}
+.content-title h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+.content-title p {
+  width: 800px;
+  float: none;
+  margin: auto;
+  margin-top: 20px;
+}
+/* ===================================== Header Style  ================================== */
+.header-content {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #FFF;
+}
+.header-content .header-top {
+  border-bottom: 1px solid #DBDBDB;
+  background-color: #FAFAFA;
+}
+.header-content .header-top .left-list li {
+  float: left;
+  list-style: none;
+  padding: 8px 20px;
+}
+.header-content .header-top .social-links li {
+  float: right;
+  padding: 8px 20px;
+  border-right: 1px solid #079b51;
+}
+.header-content .header-top .social-links li:hover {
+  background-color: #29509f;
+  color: #FFF;
+  cursor: pointer;
+}
+.header-content .header-top .social-links li:hover a {
+  color: #FFF;
+}
+@media screen and (max-width: 884px) {
+  .header-content .header-top .social-links {
+    padding-left: 0px;
+  }
+}
+.header-content .header-nav {
+  background-color: #FFF;
+  padding: 20px;
+}
+.header-content .header-nav img {
+  width: 600px;
+}
+.header-content .header-nav i {
+  float: right;
+  font-size: 22px;
+  margin-top: 15px;
+  color: #29509f;
+}
+@media screen and (max-width: 767px) {
+  .header-content .header-nav .nav-menu {
+    display: none;
+  }
+  .header-content .header-nav .collapse.show {
+    display: block;
+  }
+  .header-content .header-nav ul {
+    width: 100%;
+  }
+  .header-content .header-nav ul li {
+    width: 100%;
+  }
+}
+.header-content .header-nav ul {
+  float: right;
+}
+.header-content .header-nav ul li {
+  float: left;
+  padding: 5px 30px;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.header-content .header-nav ul li:hover {
+  background-color: #29509f;
+  color: #FFF;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.header-content .header-nav ul li:hover a {
+  color: #FFF;
+}
+@media screen and (max-width: 1075px) {
+  .header-content .header-nav ul li {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 885px) {
+  .header-content .header-nav ul li {
+    padding: 5px 12px;
+    font-size: 14px;
+  }
+}
+.header-content .header-nav ul .active {
+  background-color: #29509f;
+  color: #FFF;
+  border-radius: 50px;
+}
+.header-content .header-nav ul .active a {
+  color: #FFF;
+}
+.header-content .scroll-to-fixed-fixed {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+/* ===================================== Welcome Message Style  ================================== */
+.welcome-message {
+  padding: 50px;
+}
+@media screen and (max-width: 450px) {
+  .welcome-message {
+    padding: 30px 10px;
+  }
+}
+.welcome-message .title-content {
+  font-family: robot-slab;
+  text-align: center;
+}
+.welcome-message .title-content h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+.welcome-message .title-content p {
+  width: 800px;
+  float: none;
+  margin: auto;
+  margin-top: 20px;
+}
+.welcome-message .key-features {
+  margin-top: 50px;
+}
+.welcome-message .key-content {
+  background-color: #FFF;
+  padding: 60px 30px;
+  text-align: center;
+}
+@media screen and (max-width: 991px) {
+  .welcome-message .key-content {
+    margin-bottom: 20px;
+  }
+}
+.welcome-message .key-content p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.welcome-message .key-content i {
+  font-size: 42px;
+  color: #29509f;
+}
+.welcome-message .key-content:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+/* ===================================== About Home Style  ================================== */
+.abou-home {
+  margin-top: -90px;
+  padding: 60px;
+  padding-top: 120px;
+  background-color: #FFF;
+}
+@media screen and (max-width: 450px) {
+  .abou-home {
+    padding: 30px 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .abou-home img {
+    margin-top: 20px;
+  }
+}
+.abou-home .about-row {
+  max-width: 1000px;
+  float: none;
+  margin: auto;
+}
+.abou-home .title-another h2 {
+  font-size: 35px;
+}
+.abou-home .title-another p {
+  text-indent: 20px;
+  text-align: left;
+  text-align: justify;
+  margin-top: 20px;
+}
+.abou-home ul {
+  margin-top: 70px;
+}
+.abou-home ul .contaft {
+  padding: 10px 40px;
+  border-radius: 50px;
+  background-color: #29509f;
+  color: #FFF;
+  float: left;
+}
+.abou-home ul .cnoo {
+  margin-left: 20%;
+  float: left;
+  font-size: 22px;
+  padding-top: 10px;
+}
+.abou-home ul .cnoo i {
+  margin-right: 15px;
+}
+
+/* ===================================== Personal Detail Style  ================================== */
+.professional-details {
+  background-image: url("https://www.nemasconsult.com/assets/images/background/brackground_6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100%;
+}
+.professional-details .layy {
+  background: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  color: #FFF;
+  padding: 180px 40px;
+}
+@media screen and (max-width: 767px) {
+  .professional-details .layy {
+    padding: 80px 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .professional-details .layy {
+    padding: 30px 10px;
+  }
+  .professional-details .layy h2 {
+    font-size: 32px !important;
+  }
+}
+.professional-details .title-another {
+  text-align: center;
+}
+.professional-details .title-another h4 {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.professional-details .title-another h2 {
+  font-size: 52px;
+}
+.professional-details .title-another h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+/* ===================================== Case Study Style  ================================== */
+.cas-studey {
+  padding: 30px;
+}
+@media screen and (max-width: 450px) {
+  .cas-studey {
+    padding: 30px 10px;
+  }
+}
+.cas-studey .case-content {
+  float: none;
+  margin: auto;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  padding: 0px;
+  background-color: #FFF;
+  margin-top: -100px;
+}
+.cas-studey .case-content .case-detail {
+  padding: 30px;
+}
+@media screen and (max-width: 767px) {
+  .cas-studey .case-content .case-detail {
+    padding: 50px;
+  }
+}
+.cas-studey .case-content ul li {
+  margin-top: 10px;
+  list-style: disc;
+}
+/* ===================================== Services Style  ================================== */
+.wat-we-offwe {
+  padding: 30px;
+}
+@media screen and (max-width: 450px) {
+  .wat-we-offwe {
+    padding: 30px 10px;
+  }
+}
+.wat-we-offwe .offer-single {
+  padding: 20px;
+  margin-top: 50px;
+}
+.wat-we-offwe .offer-single h6 {
+  font-size: 20px;
+}
+.wat-we-offwe .offer-single h6 span {
+  padding: 5px 15px;
+  background-color: #FFF;
+  border-radius: 50px;
+  color: #29509f;
+  margin-right: 10px;
+}
+.wat-we-offwe .offer-single p {
+  margin-top: 20px;
+}
+/* ===================================== What We Offer Style  ================================== */
+.what-we-offer {
+  padding: 30px;
+  background-color: #FFF;
+}
+@media screen and (max-width: 450px) {
+  .what-we-offer {
+    padding: 30px 10px;
+  }
+}
+.what-we-offer .service-cover {
+  margin-top: 40px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.14);
+}
+.what-we-offer .service-cover .serv-det {
+  padding: 20px;
+}
+.what-we-offer .service-cover .serv-det h6 {
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.what-we-offer .service-cover .btn-detail {
+  text-align: right;
+  padding-bottom: 20px;
+  margin-right: 20px;
+}
+.what-we-offer .service-cover .btn {
+  background-color: #29509f;
+  color: #FFF;
+}
+/* ===================================== What We Offer Style  ================================== */
+.our-team {
+  padding: 50px;
+}
+@media screen and (max-width: 450px) {
+  .our-team {
+    padding: 30px 10px;
+  }
+}
+.our-team .content-title h2 {
+  margin-bottom: 50px;
+}
+.our-team .team-member {
+  padding: 10px;
+  background-color: #FFF;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .our-team .team-member {
+    margin-bottom: 15px;
+  }
+}
+.our-team .team-member img {
+  margin-bottom: 5px;
+}
+.our-team .team-member p {
+  margin-top: 5px;
+}
+.our-team .team-member b {
+  padding: 5px;
+}
+.our-team .team-member ul li {
+  float: left;
+  padding: 5px;
+  width: 20%;
+  text-align: center;
+  border: 1px solid #CCC;
+}
+.our-team .team-member ul {
+  margin: 0px;
+  margin-top: 10px;
+}
+/* ===================================== Dropdown  ================================== */
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #aeaeae;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #2f54a9;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* ===================================== Pricing Style  ================================== */
+.our-pricing {
+  padding: 50px;
+  background-color: #FFF;
+}
+@media screen and (max-width: 450px) {
+  .our-pricing {
+    padding: 30px 10px;
+  }
+}
+.our-pricing .content-title h2 {
+  margin-bottom: 50px;
+}
+.our-pricing .pricing-cover {
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+@media screen and (max-width: 991px) {
+  .our-pricing .pricing-cover {
+    margin-bottom: 20px;
+  }
+}
+.our-pricing .pricing-cover .pricing-head {
+  padding: 30px;
+  text-align: center;
+  border-bottom: 1px solid #CCC;
+}
+.our-pricing .pricing-cover .pricing-body {
+  padding: 30px 20px;
+  text-align: center;
+}
+.our-pricing .pricing-cover .pricing-body ul li {
+  padding: 10px;
+}
+.our-pricing .pricing-cover .pricing-body h2 {
+  margin-top: 20px;
+}
+.our-pricing .pricing-cover .pricing-body .sel {
+  background-color: #EEEEEE;
+}
+.our-pricing .pricing-cover .pricing-footer {
+  padding: 30px;
+  text-align: center;
+}
+.our-pricing .pricing-cover .pricing-footer .btn {
+  background-color: #29509f;
+  color: #FFF;
+}
+.our-pricing .popular {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #FBFBFB;
+}
+.profesion-overide {
+  background-image: url("https://www.nemasconsult.com/assets/images/background/brackground_5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.profesion-overide .layy {
+  padding: 100px 40px;
+  background-color: rgba(41, 80, 159, 0.8);
+}
+@media screen and (max-width: 750px) {
+  .profesion-overide .layy {
+    padding: 30px 10px;
+  }
+  .profesion-overide .layy h2 {
+    font-size: 32px !important;
+  }
+}
+/* ===================================== Join Us Style  ================================== */
+.join-us {
+  background-color: #FFF;
+}
+.join-us .join-us-content {
+  padding: 30px;
+}
+.join-us .join-us-content h2 {
+  margin-bottom: 20px;
+}
+.join-us .join-us-content ul {
+  padding-left: 10%;
+}
+.join-us .join-us-content ul li {
+  margin-top: 10px;
+}
+.join-us .bkgloq {
+  padding-left: 10%;
+}
+@media screen and (max-width: 767px) {
+  .join-us .bkgloq {
+    padding-left: 0px;
+  }
+}
+/* ===================================== Footer Style  ================================== */
+footer {
+  padding: 40px;
+  background-color: #444;
+  color: #FFF;
+}
+@media screen and (max-width: 1199px) {
+  footer .container {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 885px) {
+  footer .footer-quick-links-col {
+    padding: 0px;
+  }
+}
+footer p {
+  color: #FFF;
+  text-align: justify;
+}
+footer .blog-foot-cont {
+  padding-top: 10px;
+}
+footer .blog-foot-cont b {
+  font-size: 12px;
+}
+footer .blog-foot-img {
+  text-align: center;
+}
+footer .blog-foot-img img {
+  width: 90%;
+}
+footer .blog-ro {
+  padding: 5px 0px;
+}
+footer h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+footer li {
+  padding: 6px;
+  color: #FFF;
+}
+footer li a {
+  color: #FFF;
+}
+footer li i {
+  margin-right: 10px;
+}
+@media screen and (max-width: 720px) {
+  footer {
+    padding: 20px;
+  }
+  footer h2 {
+    margin-top: 30px;
+  }
+}
+/* ===================================== Copyright Style  ================================== */
+.copy {
+  background-color: #333;
+  padding: 20px;
+  color: #FFF;
+  text-align: center;
+}
+/* ===================================== Page Title Style  ================================== */
+.page-nav {
+  padding: 40px;
+  text-align: center;
+}
+.page-nav ul {
+  float: none;
+  margin: auto;
+}
+.page-nav h2 {
+  font-size: 36px;
+  color: #444;
+}
+@media screen and (max-width: 600px) {
+  .page-nav h2 {
+    font-size: 26px;
+  }
+}
+.page-nav ul li {
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 10px;
+}
+.page-nav ul li i {
+  width: 10px;
+  text-align: center;
+  color: #444;
+}
+.page-nav ul li a {
+  color: #444;
+}
+/* ===================================== About Us Style  ================================== */
+.about-us {
+  padding: 50px;
+  background-color: #FFF;
+}
+@media screen and (max-width: 1199px) {
+  .about-us .container {
+    max-width: 100%;
+  }
+}
+.about-us img {
+  width: 100%;
+  padding: 10px;
+}
+.about-us h2 {
+  font-size: 22px;
+}
+.about-us p {
+  text-align: justify;
+  text-indent: 20px;
+}
+/* ===================================== Timing & FAQ Style  ================================== */
+.timing-faq {
+  background-image: url("https://www.nemasconsult.com/assets/images/background/brackground_5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+@media screen and (max-width: 1199px) {
+  .timing-faq .container {
+    max-width: 100%;
+  }
+}
+.timing-faq .layy {
+  background: rgba(41, 80, 159, 0.8);
+  height: 100%;
+  width: 100%;
+  color: #FFF;
+  padding: 60px;
+}
+@media screen and (max-width: 720px) {
+  .timing-faq .layy {
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .timing-faq .layy {
+    padding: 0px;
+  }
+}
+.timing-faq .table-aboout {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  background-color: #FFF;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.timing-faq .table-aboout tr td {
+  border: 1px solid #CCC;
+  color: #444;
+}
+.timing-faq .accordion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #444;
+}
+.timing-faq .accordion .card-header {
+  background-color: #FFF;
+  padding: 5px;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+.timing-faq .accordion .card-header button {
+  text-decoration: none;
+  color: #444;
+  font-size: 15px;
+  width: 100%;
+  text-align: left;
+}
+.timing-faq .accordion .card-header button i {
+  float: right;
+  margin-top: -21px;
+  font-size: 18px;
+}
+@media screen and (max-width: 1040px) {
+  .timing-faq .accordion .card-header button {
+    white-space: normal;
+  }
+}
+@media screen and (max-width: 500px) {
+  .timing-faq .accordion .card-header button {
+    white-space: normal;
+  }
+}
+.timing-faq .accordion p {
+  text-align: justify;
+}
+.ppp .pricing-cover {
+  margin-bottom: 20px;
+}
+/* ===================================== Contact  Us Style  ================================== */
+.contact-us {
+  background-color: #FFF;
+}
+.contact-us iframe {
+  width: 100%;
+  height: 450px;
+  border: 0px;
+}
+.contact-us .form-box {
+  padding: 20px;
+  float: none;
+  margin: auto;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  background-color: #FFF;
+  margin-bottom: 30px;
+  margin-top: -40px;
+}
+.contact-us .form-box textarea {
+  margin-top: 20px;
+}
+.contact-us .form-box button {
+  margin-top: 20px;
+}
+.contact-us .form-box ul li {
+  padding: 10px;
+}
+.contact-us .form-box ul li i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+.contact-us .form-box ul li p {
+  float: left;
+  margin-top: -20px;
+  margin-left: 27px;
+  width: 90%;
+}
+.contact-us .form-box .btn-default {
+  background-color: #29509f;
+  color: #FFF;
+}
+@media screen and (max-width: 600px) {
+  .margin-top-20 {
+    margin-top: 20px;
+  }
+}
+/* ===================================== Gallery Style  ================================== */
+.gallery-filter {
+  width: 100%;
+  text-align: center;
+}
+.gallery-filter .btn {
+  background-color: #FFF;
+}
+.gallery {
+  padding: 30px;
+  background-color: #FFF;
+}
+.gallery-title {
+  font-size: 36px;
+  color: #29509f;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 70px;
+}
+.gallery-title:after {
+  content: "";
+  position: absolute;
+  width: 7.5%;
+  left: 46.5%;
+  height: 45px;
+  border-bottom: 1px solid #29509f;
+}
+.filter-button {
+  font-size: 18px;
+  border: 1px solid #29509f;
+  border-radius: 5px;
+  text-align: center;
+  color: #29509f;
+  margin-bottom: 30px;
+}
+.filter-button:hover {
+  font-size: 18px;
+  border: 1px solid #29509f;
+  border-radius: 5px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #29509f;
+}
+.btn-default:active .filter-button:active {
+  background-color: #29509f;
+  color: white;
+}
+.port-image {
+  width: 100%;
+}
+.gallery_product {
+  margin-bottom: 30px;
+}
